@@ -1,0 +1,18 @@
+[submodule "GarbagesEngine/vendor/spdlog"]
+	path = GarbagesEngine/vendor/spdlog
+	url = git@github.com:gabime/spdlog.git
+[submodule "GarbagesEngine/vendor/Catch2"]
+	path = GarbagesEngine/vendor/Catch2
+	url = git@github.com:catchorg/Catch2.git
+[submodule "GarbagesEngine/vendor/SDL"]
+	path = GarbagesEngine/vendor/SDL
+	url = git@github.com:libsdl-org/SDL.git
+[submodule "GarbagesEngine/vendor/Json"]
+	path = GarbagesEngine/vendor/Json
+	url = git@github.com:nlohmann/json.git
+[submodule "GarbagesEngine/vendor/glm"]
+	path = GarbagesEngine/vendor/glm
+	url = git@github.com:g-truc/glm.git
+[submodule "GarbagesEngine/vendor/VulkanMemoryAllocator"]
+	path = GarbagesEngine/vendor/VulkanMemoryAllocator
+	url = git@github.com:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
