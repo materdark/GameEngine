@@ -15,6 +15,7 @@ namespace GarbagesEngine{
 		static std::shared_ptr<spdlog::logger> s_ClientLogger;
 	};
 }
+
 // Core log macros
 #define GE_CORE_TRACE(...)    ::GarbagesEngine::Log::GetCoreLogger()->trace(__VA_ARGS__)
 #define GE_CORE_INFO(...)     ::GarbagesEngine::Log::GetCoreLogger()->info(__VA_ARGS__)

@@ -1,0 +1,507 @@
+************************************* Invoked: 周四 7月 18 09:20:33 2024
+[0] Arguments: C:\Users\chenz\Downloads\VulkanSDK-1.3.283.0-Installer (1).exe
+[5] Operations sanity check succeeded.
+[5] Language: zh-CN
+[366] Loaded control script ":/metadata/installer-config/installscript_qs.qs"
+[366] Using control script: ":/metadata/installer-config/installscript_qs.qs"
+[1953] 正在准备下载元信息...
+[4174] 正在从远程资料档案库中检索元信息...
+[5791] 正在提取元信息...
+[15303] OverwriteTargetDirectory : 警告 : 您已选择现有非空目录进行安装。
+请注意，在卸载此应用程序时将完全删除该目录。
+不建议安装到此目录中，因为安装可能会失败。
+是否要继续? Yes|No
+[40584] Installation space required: "4.19 GB" Temporary space required: "724.91 MB" Local repository size: "0.00 字节"
+[40587] Tmp is on a different volume than the installation directory. Tmp volume mount point: "C:\\" Free space available: "15.55 GB" Install volume mount point: "F:\\" Free space available: "219.39 GB"
+[41507] backup  operation: Mkdir
+[41507] 	- arguments: F:/GameEngine/GameEngine/GarbagesEngine/vendor/vulkan
+[41507] Done
+[41507] perform  operation: Mkdir
+[41507] 	- arguments: F:/GameEngine/GameEngine/GarbagesEngine/vendor/vulkan
+[41508] Done
+[41509] 正在准备安装…
+[41509] Install size: 9 components
+[41509] 正在下载包...
+[41509] 正在下载组件 SDK 32-bit Core Components 的存档“1.3.283.0core32.7z.sha1”。
+[43727] 正在下载组件 SDK 32-bit Core Components 的存档“1.3.283.0core32.7z”。
+[75424] 正在下载组件 Shader Toolchain Debug Symbols - 64-bit 的存档“1.3.283.0debug.7z.sha1”。
+[77636] 正在下载组件 Shader Toolchain Debug Symbols - 64-bit 的存档“1.3.283.0debug.7z”。
+[114544] 正在下载组件 Shader Toolchain Debug Symbols - 32-bit 的存档“1.3.283.0debug32.7z.sha1”。
+[116873] 正在下载组件 Shader Toolchain Debug Symbols - 32-bit 的存档“1.3.283.0debug32.7z”。
+[145652] 正在下载组件 GLM headers. 的存档“1.3.283.0GLM.7z.sha1”。
+[148263] 正在下载组件 GLM headers. 的存档“1.3.283.0GLM.7z”。
+[151778] 正在下载组件 SDL2 libraries and headers. 的存档“1.3.283.0SDL2.7z.sha1”。
+[154133] 正在下载组件 SDL2 libraries and headers. 的存档“1.3.283.0SDL2.7z”。
+[164559] 正在下载组件 Volk header, source, and library. 的存档“1.3.283.0Volk.7z.sha1”。
+[167472] 正在下载组件 Volk header, source, and library. 的存档“1.3.283.0Volk.7z”。
+[170540] 正在下载组件 Vulkan Memory Allocator header. 的存档“1.3.283.0VMA.7z.sha1”。
+[173434] 正在下载组件 Vulkan Memory Allocator header. 的存档“1.3.283.0VMA.7z”。
+[175887] 正在安装组件 The Vulkan SDK
+[175889] backup com.lunarg.vulkan operation: License
+[175889] 	- arguments:
+[175889] Done
+[175890] perform com.lunarg.vulkan operation: License
+[175890] 	- arguments:
+[175892] Done
+[175893] 正在安装组件 The Vulkan SDK Core (Always Installed)
+[175894] backup com.lunarg.vulkan.core operation: Extract
+[175894] 	- arguments: installer://com.lunarg.vulkan.core/1.3.283.0core.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[175894] Done
+[175894] perform com.lunarg.vulkan.core operation: Extract
+[175894] 	- arguments: installer://com.lunarg.vulkan.core/1.3.283.0core.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[182767] Done
+[182767] Starting elevated process "C:\\Users\\chenz\\Downloads\\VulkanSDK-1.3.283.0-Installer (1).exe" with arguments " --start-server PRODUCTION,{ee72d634-b142-442e-93bb-14ea9a7f6693},{6cdf93ef-1527-4735-a628-3aa6954fd94c}"
+[183075] Finished starting elevated process.
+[183174] "Execute" as admin: true
+[183174] backup com.lunarg.vulkan.core operation: Execute
+[183176] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan, SHORTCUTS, Vulkan SDK 1.3.283.0, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, REMOVESHORTCUTS, Vulkan SDK 1.3.283.0
+[183176] Done
+[183176] perform com.lunarg.vulkan.core operation: Execute
+[183178] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan, SHORTCUTS, Vulkan SDK 1.3.283.0, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, REMOVESHORTCUTS, Vulkan SDK 1.3.283.0
+[183190] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan SHORTCUTS Vulkan SDK 1.3.283.0
+[183683] Done
+[183685] "Execute" as admin: true
+[183685] backup com.lunarg.vulkan.core operation: Execute
+[183686] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_api_dump.json
+[183686] Done
+[183686] perform com.lunarg.vulkan.core operation: Execute
+[183687] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_api_dump.json
+[183688] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_api_dump.json
+[183703] Done
+[183704] "Execute" as admin: true
+[183704] backup com.lunarg.vulkan.core operation: Execute
+[183705] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_api_dump.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_api_dump.json
+[183705] Done
+[183705] perform com.lunarg.vulkan.core operation: Execute
+[183706] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_api_dump.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_api_dump.json
+[183707] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_api_dump.json
+[183722] Done
+[183723] "Execute" as admin: true
+[183723] backup com.lunarg.vulkan.core operation: Execute
+[183723] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_gfxreconstruct.json
+[183723] Done
+[183724] perform com.lunarg.vulkan.core operation: Execute
+[183724] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_gfxreconstruct.json
+[183725] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_gfxreconstruct.json
+[183740] Done
+[183741] "Execute" as admin: true
+[183741] backup com.lunarg.vulkan.core operation: Execute
+[183742] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_gfxreconstruct.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_gfxreconstruct.json
+[183742] Done
+[183743] perform com.lunarg.vulkan.core operation: Execute
+[183744] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_gfxreconstruct.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_gfxreconstruct.json
+[183745] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_gfxreconstruct.json
+[183759] Done
+[183760] "Execute" as admin: true
+[183760] backup com.lunarg.vulkan.core operation: Execute
+[183761] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_synchronization2.json
+[183761] Done
+[183761] perform com.lunarg.vulkan.core operation: Execute
+[183762] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_synchronization2.json
+[183763] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_synchronization2.json
+[183778] Done
+[183779] "Execute" as admin: true
+[183779] backup com.lunarg.vulkan.core operation: Execute
+[183780] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_synchronization2.json
+[183780] Done
+[183780] perform com.lunarg.vulkan.core operation: Execute
+[183782] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_synchronization2.json
+[183783] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_khronos_synchronization2.json
+[183797] Done
+[183798] "Execute" as admin: true
+[183798] backup com.lunarg.vulkan.core operation: Execute
+[183799] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_validation.json
+[183799] Done
+[183799] perform com.lunarg.vulkan.core operation: Execute
+[183800] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_validation.json
+[183801] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_validation.json
+[183816] Done
+[183816] "Execute" as admin: true
+[183816] backup com.lunarg.vulkan.core operation: Execute
+[183818] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_validation.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_validation.json
+[183818] Done
+[183818] perform com.lunarg.vulkan.core operation: Execute
+[183819] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_validation.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_validation.json
+[183820] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_khronos_validation.json
+[183852] Done
+[183852] "Execute" as admin: true
+[183852] backup com.lunarg.vulkan.core operation: Execute
+[183853] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_monitor.json
+[183853] Done
+[183853] perform com.lunarg.vulkan.core operation: Execute
+[183854] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_monitor.json
+[183855] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_monitor.json
+[183873] Done
+[183873] "Execute" as admin: true
+[183873] backup com.lunarg.vulkan.core operation: Execute
+[183874] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_monitor.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_monitor.json
+[183874] Done
+[183875] perform com.lunarg.vulkan.core operation: Execute
+[183876] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_monitor.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_monitor.json
+[183877] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_monitor.json
+[183891] Done
+[183892] "Execute" as admin: true
+[183892] backup com.lunarg.vulkan.core operation: Execute
+[183893] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_screenshot.json
+[183893] Done
+[183893] perform com.lunarg.vulkan.core operation: Execute
+[183894] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_screenshot.json
+[183895] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_screenshot.json
+[183910] Done
+[183911] "Execute" as admin: true
+[183911] backup com.lunarg.vulkan.core operation: Execute
+[183912] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_screenshot.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_screenshot.json
+[183912] Done
+[183913] perform com.lunarg.vulkan.core operation: Execute
+[183914] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_screenshot.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_screenshot.json
+[183915] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_screenshot.json
+[183930] Done
+[183931] "Execute" as admin: true
+[183931] backup com.lunarg.vulkan.core operation: Execute
+[183932] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_profiles.json
+[183932] Done
+[183932] perform com.lunarg.vulkan.core operation: Execute
+[183933] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_profiles.json
+[183934] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_profiles.json
+[183979] Done
+[183980] "Execute" as admin: true
+[183980] backup com.lunarg.vulkan.core operation: Execute
+[183981] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_profiles.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_profiles.json
+[183981] Done
+[183982] perform com.lunarg.vulkan.core operation: Execute
+[183983] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_profiles.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_profiles.json
+[183984] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_khronos_profiles.json
+[183999] Done
+[184000] "Execute" as admin: true
+[184000] backup com.lunarg.vulkan.core operation: Execute
+[184001] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_shader_object.json
+[184001] Done
+[184001] perform com.lunarg.vulkan.core operation: Execute
+[184002] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_shader_object.json
+[184003] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_shader_object.json
+[184018] Done
+[184019] "Execute" as admin: true
+[184019] backup com.lunarg.vulkan.core operation: Execute
+[184020] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_shader_object.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_shader_object.json
+[184020] Done
+[184020] perform com.lunarg.vulkan.core operation: Execute
+[184021] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, ADDEXPLICIT, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_shader_object.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, DELKEYVALUE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin\VkLayer_khronos_shader_object.json
+[184022] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin\\VkLayer_khronos_shader_object.json
+[184043] Done
+[184044] "Execute" as admin: true
+[184044] backup com.lunarg.vulkan.core operation: Execute
+[184044] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_device_simulation.json
+[184044] Done
+[184045] perform com.lunarg.vulkan.core operation: Execute
+[184045] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_device_simulation.json
+[184046] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_device_simulation.json
+[184061] Done
+[184061] "Execute" as admin: true
+[184061] backup com.lunarg.vulkan.core operation: Execute
+[184065] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, NOP, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, REMOVE
+[184065] Done
+[184065] perform com.lunarg.vulkan.core operation: Execute
+[184068] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, NOP, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, REMOVE
+[184069] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin NOP
+[184084] Done
+[184085] "Execute" as admin: true
+[184085] backup com.lunarg.vulkan.core operation: Execute
+[184086] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, ADD
+[184086] Done
+[184086] perform com.lunarg.vulkan.core operation: Execute
+[184087] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin, ADD
+[184089] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper.exe" started, arguments: "F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin ADD
+[184104] Done
+[184105] backup com.lunarg.vulkan.core operation: License
+[184105] 	- arguments:
+[184105] Done
+[184106] perform com.lunarg.vulkan.core operation: License
+[184106] 	- arguments:
+[184108] Done
+[184109] 正在安装组件 SDK 32-bit Core Components
+[184110] backup com.lunarg.vulkan.32bit operation: Extract
+[184110] 	- arguments: installer://com.lunarg.vulkan.32bit/1.3.283.0core32.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[184110] Done
+[184110] perform com.lunarg.vulkan.32bit operation: Extract
+[184110] 	- arguments: installer://com.lunarg.vulkan.32bit/1.3.283.0core32.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[189002] Done
+[189002] "Execute" as admin: true
+[189002] backup com.lunarg.vulkan.32bit operation: Execute
+[189004] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan, SHORTCUTS32, Vulkan SDK 1.3.283.0, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, REMOVESHORTCUTS32, Vulkan SDK 1.3.283.0
+[189004] Done
+[189006] perform com.lunarg.vulkan.32bit operation: Execute
+[189007] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan, SHORTCUTS32, Vulkan SDK 1.3.283.0, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, REMOVESHORTCUTS32, Vulkan SDK 1.3.283.0
+[189009] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan SHORTCUTS32 Vulkan SDK 1.3.283.0
+[189028] Done
+[189029] "Execute" as admin: true
+[189029] backup com.lunarg.vulkan.32bit operation: Execute
+[189029] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_api_dump.json
+[189029] Done
+[189030] perform com.lunarg.vulkan.32bit operation: Execute
+[189030] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_api_dump.json
+[189031] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_api_dump.json
+[189048] Done
+[189049] "Execute" as admin: true
+[189049] backup com.lunarg.vulkan.32bit operation: Execute
+[189050] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_api_dump.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_api_dump.json
+[189050] Done
+[189051] perform com.lunarg.vulkan.32bit operation: Execute
+[189052] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_api_dump.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_api_dump.json
+[189053] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_api_dump.json
+[189070] Done
+[189071] "Execute" as admin: true
+[189071] backup com.lunarg.vulkan.32bit operation: Execute
+[189072] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_gfxreconstruct.json
+[189072] Done
+[189072] perform com.lunarg.vulkan.32bit operation: Execute
+[189073] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_gfxreconstruct.json
+[189074] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_gfxreconstruct.json
+[189090] Done
+[189091] "Execute" as admin: true
+[189091] backup com.lunarg.vulkan.32bit operation: Execute
+[189092] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_gfxreconstruct.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_gfxreconstruct.json
+[189092] Done
+[189093] perform com.lunarg.vulkan.32bit operation: Execute
+[189094] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_gfxreconstruct.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_gfxreconstruct.json
+[189095] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_gfxreconstruct.json
+[189112] Done
+[189113] "Execute" as admin: true
+[189113] backup com.lunarg.vulkan.32bit operation: Execute
+[189113] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_synchronization2.json
+[189113] Done
+[189114] perform com.lunarg.vulkan.32bit operation: Execute
+[189115] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_synchronization2.json
+[189116] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_khronos_synchronization2.json
+[189133] Done
+[189134] "Execute" as admin: true
+[189134] backup com.lunarg.vulkan.32bit operation: Execute
+[189135] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_synchronization2.json
+[189135] Done
+[189136] perform com.lunarg.vulkan.32bit operation: Execute
+[189137] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_synchronization2.json
+[189138] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_khronos_synchronization2.json
+[189155] Done
+[189156] "Execute" as admin: true
+[189156] backup com.lunarg.vulkan.32bit operation: Execute
+[189156] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_validation.json
+[189156] Done
+[189157] perform com.lunarg.vulkan.32bit operation: Execute
+[189157] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_validation.json
+[189158] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_khronos_validation.json
+[189175] Done
+[189176] "Execute" as admin: true
+[189176] backup com.lunarg.vulkan.32bit operation: Execute
+[189177] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_validation.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_validation.json
+[189177] Done
+[189177] perform com.lunarg.vulkan.32bit operation: Execute
+[189179] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_validation.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_validation.json
+[189180] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_khronos_validation.json
+[189197] Done
+[189197] "Execute" as admin: true
+[189197] backup com.lunarg.vulkan.32bit operation: Execute
+[189198] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_monitor.json
+[189198] Done
+[189198] perform com.lunarg.vulkan.32bit operation: Execute
+[189199] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_monitor.json
+[189200] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_monitor.json
+[189218] Done
+[189218] "Execute" as admin: true
+[189218] backup com.lunarg.vulkan.32bit operation: Execute
+[189220] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_monitor.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_monitor.json
+[189220] Done
+[189220] perform com.lunarg.vulkan.32bit operation: Execute
+[189221] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_monitor.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_monitor.json
+[189222] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_monitor.json
+[189239] Done
+[189241] "Execute" as admin: true
+[189241] backup com.lunarg.vulkan.32bit operation: Execute
+[189242] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_screenshot.json
+[189242] Done
+[189242] perform com.lunarg.vulkan.32bit operation: Execute
+[189243] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_screenshot.json
+[189244] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_screenshot.json
+[189261] Done
+[189262] "Execute" as admin: true
+[189262] backup com.lunarg.vulkan.32bit operation: Execute
+[189263] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_screenshot.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_screenshot.json
+[189263] Done
+[189263] perform com.lunarg.vulkan.32bit operation: Execute
+[189265] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_screenshot.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_screenshot.json
+[189266] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_screenshot.json
+[189283] Done
+[189284] "Execute" as admin: true
+[189284] backup com.lunarg.vulkan.32bit operation: Execute
+[189285] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_shader_object.json
+[189285] Done
+[189285] perform com.lunarg.vulkan.32bit operation: Execute
+[189286] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_khronos_shader_object.json
+[189287] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_khronos_shader_object.json
+[189304] Done
+[189305] "Execute" as admin: true
+[189305] backup com.lunarg.vulkan.32bit operation: Execute
+[189306] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_shader_object.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_shader_object.json
+[189306] Done
+[189306] perform com.lunarg.vulkan.32bit operation: Execute
+[189308] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, ADDEXPLICIT32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_shader_object.json, UNDOEXECUTE, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, DELKEYVALUE32, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Bin32\VkLayer_khronos_shader_object.json
+[189308] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "ADDEXPLICIT32 F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Bin32\\VkLayer_khronos_shader_object.json
+[189326] Done
+[189326] "Execute" as admin: true
+[189326] backup com.lunarg.vulkan.32bit operation: Execute
+[189327] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_device_simulation.json
+[189327] Done
+[189327] perform com.lunarg.vulkan.32bit operation: Execute
+[189328] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan\Helpers\install_helper32.exe, CLEANEXPLICIT32, VkLayer_device_simulation.json
+[189329] F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan\\Helpers\\install_helper32.exe" started, arguments: "CLEANEXPLICIT32 VkLayer_device_simulation.json
+[189347] Done
+[189348] backup com.lunarg.vulkan.32bit operation: License
+[189348] 	- arguments:
+[189348] Done
+[189348] perform com.lunarg.vulkan.32bit operation: License
+[189348] 	- arguments:
+[189350] Done
+[189352] 正在安装组件 Shader Toolchain Debug Symbols - 64-bit
+[189353] backup com.lunarg.vulkan.debug operation: Extract
+[189353] 	- arguments: installer://com.lunarg.vulkan.debug/1.3.283.0debug.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[189353] Done
+[189353] perform com.lunarg.vulkan.debug operation: Extract
+[189353] 	- arguments: installer://com.lunarg.vulkan.debug/1.3.283.0debug.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[197700] Done
+[197701] backup com.lunarg.vulkan.debug operation: License
+[197701] 	- arguments:
+[197701] Done
+[197702] perform com.lunarg.vulkan.debug operation: License
+[197702] 	- arguments:
+[197703] Done
+[197705] 正在安装组件 Shader Toolchain Debug Symbols - 32-bit
+[197705] backup com.lunarg.vulkan.debug32 operation: Extract
+[197705] 	- arguments: installer://com.lunarg.vulkan.debug32/1.3.283.0debug32.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[197705] Done
+[197706] perform com.lunarg.vulkan.debug32 operation: Extract
+[197706] 	- arguments: installer://com.lunarg.vulkan.debug32/1.3.283.0debug32.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[204357] Done
+[204358] backup com.lunarg.vulkan.debug32 operation: License
+[204358] 	- arguments:
+[204358] Done
+[204359] perform com.lunarg.vulkan.debug32 operation: License
+[204359] 	- arguments:
+[204360] Done
+[204362] 正在安装组件 GLM headers.
+[204363] backup com.lunarg.vulkan.glm operation: Extract
+[204363] 	- arguments: installer://com.lunarg.vulkan.glm/1.3.283.0GLM.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[204363] Done
+[204363] perform com.lunarg.vulkan.glm operation: Extract
+[204363] 	- arguments: installer://com.lunarg.vulkan.glm/1.3.283.0GLM.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[204697] Done
+[204698] backup com.lunarg.vulkan.glm operation: License
+[204698] 	- arguments:
+[204698] Done
+[204698] perform com.lunarg.vulkan.glm operation: License
+[204698] 	- arguments:
+[204700] Done
+[204702] 正在安装组件 SDL2 libraries and headers.
+[204703] backup com.lunarg.vulkan.sdl2 operation: Extract
+[204703] 	- arguments: installer://com.lunarg.vulkan.sdl2/1.3.283.0SDL2.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[204703] Done
+[204703] perform com.lunarg.vulkan.sdl2 operation: Extract
+[204703] 	- arguments: installer://com.lunarg.vulkan.sdl2/1.3.283.0SDL2.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[205599] Done
+[205602] backup com.lunarg.vulkan.sdl2 operation: License
+[205602] 	- arguments:
+[205602] Done
+[205603] perform com.lunarg.vulkan.sdl2 operation: License
+[205603] 	- arguments:
+[205604] Done
+[205607] 正在安装组件 Volk header, source, and library.
+[205607] backup com.lunarg.vulkan.volk operation: Extract
+[205607] 	- arguments: installer://com.lunarg.vulkan.volk/1.3.283.0Volk.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[205607] Done
+[205608] perform com.lunarg.vulkan.volk operation: Extract
+[205608] 	- arguments: installer://com.lunarg.vulkan.volk/1.3.283.0Volk.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[205629] Done
+[205630] backup com.lunarg.vulkan.volk operation: License
+[205630] 	- arguments:
+[205630] Done
+[205631] perform com.lunarg.vulkan.volk operation: License
+[205631] 	- arguments:
+[205632] Done
+[205636] 正在安装组件 Vulkan Memory Allocator header.
+[205637] backup com.lunarg.vulkan.vma operation: Extract
+[205637] 	- arguments: installer://com.lunarg.vulkan.vma/1.3.283.0VMA.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[205637] Done
+[205637] perform com.lunarg.vulkan.vma operation: Extract
+[205637] 	- arguments: installer://com.lunarg.vulkan.vma/1.3.283.0VMA.7z, F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan
+[205648] Done
+[205650] backup com.lunarg.vulkan.vma operation: License
+[205650] 	- arguments:
+[205650] Done
+[205650] perform com.lunarg.vulkan.vma operation: License
+[205650] 	- arguments:
+[205652] Done
+[205658] Writing maintenance tool: "F:\\GameEngine\\GameEngine\\GarbagesEngine\\vendor\\vulkan/maintenancetool.exe.new"
+[205659] 编写维护工具
+[205712] Wrote permissions for maintenance tool.
+[205837] Maintenance tool restart: false.
+[205840] 安装已完成!
+[205841] Component name: com.lunarg.vulkan.core
+[205841] Component name: com.lunarg.vulkan.32bit
+[205841] Component name: com.lunarg.vulkan.debug
+[205841] Component name: com.lunarg.vulkan.debug32
+[205841] Component name: com.lunarg.vulkan.glm
+[205841] Component name: com.lunarg.vulkan.sdl2
+[205841] Component name: com.lunarg.vulkan.volk
+[205841] Component name: com.lunarg.vulkan.vma
+[205868] perform  operation: Delete
+[205868] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan/Helpers/VC_redist.x86.exe
+[205870] Warning: QString::arg: Argument missing: Run the Vulkan Configurator and Hardware Capabilities Viewer, Vulkan SDK 1.3.283.0
+[205872] Done
+[205876] Component name: com.lunarg.vulkan.core
+[205876] perform  operation: Execute
+[205876] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.core, /t, REG_DWORD, /d, 1, /f
+[205877] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.core /t REG_DWORD /d 1 /f
+[205891] Done
+[205892] Is Installed
+[205892] Component name: com.lunarg.vulkan.32bit
+[205892] perform  operation: Execute
+[205892] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.32bit, /t, REG_DWORD, /d, 1, /f
+[205893] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.32bit /t REG_DWORD /d 1 /f
+[205905] Done
+[205907] Is Installed
+[205907] Component name: com.lunarg.vulkan.debug
+[205907] perform  operation: Execute
+[205907] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.debug, /t, REG_DWORD, /d, 1, /f
+[205908] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.debug /t REG_DWORD /d 1 /f
+[205919] Done
+[205920] Is Installed
+[205920] Component name: com.lunarg.vulkan.debug32
+[205920] perform  operation: Execute
+[205920] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.debug32, /t, REG_DWORD, /d, 1, /f
+[205921] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.debug32 /t REG_DWORD /d 1 /f
+[205933] Done
+[205933] Is Installed
+[205933] Component name: com.lunarg.vulkan.glm
+[205934] perform  operation: Execute
+[205934] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.glm, /t, REG_DWORD, /d, 1, /f
+[205934] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.glm /t REG_DWORD /d 1 /f
+[205947] Done
+[205950] Is Installed
+[205950] Component name: com.lunarg.vulkan.sdl2
+[205950] perform  operation: Execute
+[205950] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.sdl2, /t, REG_DWORD, /d, 1, /f
+[205951] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.sdl2 /t REG_DWORD /d 1 /f
+[205964] Done
+[205965] Is Installed
+[205965] Component name: com.lunarg.vulkan.volk
+[205965] perform  operation: Execute
+[205965] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.volk, /t, REG_DWORD, /d, 1, /f
+[205966] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.volk /t REG_DWORD /d 1 /f
+[205978] Done
+[205979] Is Installed
+[205979] Component name: com.lunarg.vulkan.vma
+[205979] perform  operation: Execute
+[205979] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.vma, /t, REG_DWORD, /d, 1, /f
+[205979] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.vma /t REG_DWORD /d 1 /f
+[205993] Done
+[205994] Is Installed
+[206030] perform  operation: Delete
+[206030] 	- arguments: F:\GameEngine\GameEngine\GarbagesEngine\vendor\vulkan/Helpers/VC_redist.x64.exe
+[206033] Done

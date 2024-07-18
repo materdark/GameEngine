@@ -15,3 +15,6 @@
 #ifdef GE_PLATFORM_WINDOWS
    #include<Windows.h>
 #endif
+#include<SDLWindows/SDLWindows.h>
+#include <vulkan/vulkan.h>
+#include <filesystem>

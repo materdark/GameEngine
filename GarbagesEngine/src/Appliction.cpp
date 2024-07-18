@@ -19,9 +19,12 @@ namespace GarbagesEngine {
 		GE_CORE_WARN("Initialized Log!");
 		GE_INFO("Initialized Log!");
 		std::cout << "Hello SandBox." << std::endl;
-		while (true)
-		{
-			// Add your code here
+		initWindow();
+		bool running = true;
+		while (running) {
+			processInput(running);
 		}
+
+		cleanup();
 	}
 }

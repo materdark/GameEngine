@@ -16,3 +16,6 @@
 [submodule "GarbagesEngine/vendor/VulkanMemoryAllocator"]
 	path = GarbagesEngine/vendor/VulkanMemoryAllocator
 	url = git@github.com:GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "GarbagesEngine/vendor/imgui"]
+	path = GarbagesEngine/vendor/imgui
+	url = git@github.com:ocornut/imgui.git

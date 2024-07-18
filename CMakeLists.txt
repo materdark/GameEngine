@@ -15,9 +15,10 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 包含子项目。
-add_subdirectory ("GarbagesEngine")
+add_subdirectory (GarbagesEngine)
 
-add_subdirectory ("SandBox")
+add_subdirectory (SandBox)
+
 
 # 设置sandbox为启动项目
 set_property(DIRECTORY ${CMAKE_SOURCE_DIR}/SandBox PROPERTY VS_STARTUP_PROJECT SandBox)
